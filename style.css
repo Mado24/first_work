@@ -1,0 +1,44 @@
+body {
+  width: 1440px;
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  border-width: 3px 0;
+  border-color: #330099;
+  border-style: solid;
+  height: 110px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  position: relative;
+  margin: 6px 27px 0 0;
+  font: 20px/25px gilroy, arial, helvetica, sans-serif;
+  color: #585858;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.menu__item:last-child {
+  font-family: montserrat_bold;
+  background-color: #330099;
+  padding: 13px 30px;
+  border-radius: 50px;
+  color: #fff;
+}
