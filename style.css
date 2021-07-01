@@ -1,5 +1,4 @@
 body {
-  /* width: 1440px; */
   margin: 0;
 }
 
@@ -30,11 +29,21 @@ body {
 
 .menu__item {
   position: relative;
-  margin: 4px 36px 0px 7px;
+  margin: 3px 44px 0px 0px;
   font: 20px/24px gilroy, arial, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
   transition: opacity 0.5s;
+}
+
+.menu__item:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.menu__item_btn:hover {
+  cursor: pointer;
+  background: #0fea00;
 }
 
 .menu__item_btn {
@@ -81,14 +90,26 @@ body {
 }
 
 @media (max-width: 1025px) {
-
+  .main__title {
+    width: 70%;
+  }
 }
 
 @media (max-width: 801px) {
+  .main__title {
+    font: 32px/40px montserrat_black, arial, helvetica, sans-serif;
+  }
 
+  .main__subtitle {
+    font: 24px/30px montserrat_bold, arial, helvetica, sans-serif;
+  }
 }
 
 @media (max-width: 769px){
+
+  .main {
+    width: 80%;
+  }
 
   .header {
     border-width: 0;
@@ -100,7 +121,7 @@ body {
 
   .menu__item {
     margin: 0;
-    font:34px/40px gilroy, arial, helvetica, sans-serif;
+    font:32px/40px gilroy, arial, helvetica, sans-serif;
   }
 
   .menu__item_btn {
@@ -203,22 +224,33 @@ body {
   .main {
       background: no-repeat center/100% url(images/bg-mob.svg);
       height: 231px;
+      justify-content: flex-end;
   }
 
   .main__title {
     font: 20px/24px montserrat_black, arial, helvetica, sans-serif;
+    padding-right: 10%;
+    width: 80%;
+    margin: 0;
   }
 
   .main__subtitle {
     font: 16px/19px montserrat_bold, arial, helvetica, sans-serif;
+    padding-right: 10%;
+    margin: 0;
+    padding-bottom: 37%;
   }
 
   .menu__item_btn {
-    font: 8px/9px montserrat_extrabold, arial, helvetica, sans-serif;
+    font: 8px/8px montserrat_extrabold, arial, helvetica, sans-serif;
     padding: 5px 11px;
   }
 
   .header {
     height: 54px;
+  }
+
+  .menu__btn {
+    width: 23px;
   }
 }
