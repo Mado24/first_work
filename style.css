@@ -70,7 +70,7 @@ body {
 
 .main__title {
   color: #330099;
-  font: 40px/49px montserrat_black, arial, helvetica, sans-serif;
+  font: 40px/48px montserrat_black, arial, helvetica, sans-serif;
   padding-right: 9%;
   width: 50%;
   margin-bottom: 4px;
@@ -78,7 +78,7 @@ body {
 
 .main__subtitle {
   color: #fff;
-  font: 30px/37px montserrat_bold, arial, helvetica, sans-serif;
+  font: 30px/38px montserrat_bold, arial, helvetica, sans-serif;
   padding-right: 9%;
   margin-top: 4px;
 }
@@ -107,7 +107,7 @@ body {
 
 @media (max-width: 769px){
 
-  .main {
+  .main__title {
     width: 80%;
   }
 
@@ -230,7 +230,6 @@ body {
   .main__title {
     font: 20px/24px montserrat_black, arial, helvetica, sans-serif;
     padding-right: 10%;
-    width: 80%;
     margin: 0;
   }
 
