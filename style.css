@@ -49,7 +49,7 @@ body {
 .menu__item_btn {
   font: 20px/24px montserrat_extrabold, arial, helvetica, sans-serif;
   background-color: #330099;
-  padding: 12px 31px;
+  padding: 15px 31px 11px 31px;
   border-radius: 50px;
   color: #fff;
   position: relative;
@@ -380,7 +380,7 @@ body {
 @media (max-width: 320px) {
   .main {
       background: no-repeat center/100% url(images/bg-mob.svg);
-      height: 231px;
+      height: 230px;
       justify-content: flex-end;
   }
 
@@ -392,7 +392,7 @@ body {
 
   .main__subtitle {
     font: 16px/19px montserrat_bold, arial, helvetica, sans-serif;
-    padding-right: 10%;
+    padding-right: 9%;
     margin: 0;
     padding-bottom: 37%;
   }
