@@ -95,7 +95,7 @@ body {
   font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
   color: #585858;
   text-align: center;
-  margin: 0 auto 50 0;
+  margin-bottom: 50px;
 }
 
 .advantages-all{
@@ -105,15 +105,52 @@ body {
   text-align: center;
 }
 
-.advantages-item {
+.advantages-second, .advantages-first, .advantages-third {
 width: 320px;
 }
 
-.advantages-item__title {
+.advantages-first__img, .advantages-second__img, .advantages-third__img {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 30px;
+}
+
+.advantages-first__title, .advantages-second__title, .advantages-third__title {
   font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
   color: #585858;
 }
 
+.advantages-first__title {
+  margin-bottom: 10px;
+}
+
+.advantages-second__title {
+  margin-bottom: 27px;
+}
+
+.advantages-third__title {
+  margin-bottom: 10px;
+}
+
+.advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+  color:#585858;
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+  margin-bottom: 117px;
+}
+
+.advantages__button {
+  display: block;
+  text-align: center;
+}
+.advantages__button a {
+  text-decoration: none;
+  background-color: #330099;
+  padding: 21px 37px 20px 36px;
+  border-radius: 50px;
+  color: #FFDA45;
+  font: 20px/24px montserrat_extrabold, arial, helvetica, sans-serif;
+  cursor:pointer;
+}
 
 @media (max-width: 1441px) {
   .main {
