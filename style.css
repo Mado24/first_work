@@ -49,7 +49,7 @@ body {
 .menu__item_btn {
   font: 20px/24px montserrat_extrabold, arial, helvetica, sans-serif;
   background-color: #330099;
-  padding: 12px 30px;
+  padding: 12px 31px;
   border-radius: 50px;
   color: #fff;
   position: relative;
@@ -122,19 +122,6 @@ body {
 
 .advantages-first__img, .advantages-second__img, .advantages-third__img {
   width: 85px;
-  height: 85px;
-  margin-bottom: 28px;
-}
-
-.advantages-second__img {
-  width: 85px;
-  height: 85px;
-  margin-bottom: 28px;
-}
-
-.advantages-third__img {
-  width: 85px;
-  height: 85px;
   margin-bottom: 28px;
 }
 
@@ -181,6 +168,7 @@ body {
   text-align: center;
   padding-bottom: 110px;
 }
+
 .advantages__button a {
   text-decoration: none;
   background-color: #330099;
@@ -190,6 +178,8 @@ body {
   font: 20px/24px montserrat_extrabold, arial, helvetica, sans-serif;
   cursor:pointer;
 }
+
+
 
 @media (max-width: 1441px) {
   .main {
@@ -201,15 +191,57 @@ body {
   .main__title {
     width: 70%;
   }
+
+  .advantages__title {
+    padding-top: 60px;
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first,.advantages-second,.advantages-third {
+    width: 270px;
+    margin: 0;
+  }
+
+  .advantages-second__title {
+    padding-left: 0;
+    width: auto;
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__title, .advantages-third__title {
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+    font: 18px/22px montserrat_medium, arial, helvetica, sans-serif;
+  }
 }
 
-@media (max-width: 801px) {
+@media (max-width: 880px) {
   .main__title {
     font: 32px/40px montserrat_black, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     font: 24px/30px montserrat_bold, arial, helvetica, sans-serif;
+  }
+
+  .advantages__title {
+    padding-top: 50px;
+    font: 20px/28px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__title, .advantages-second__title, .advantages-third__title {
+    font: 20px/28px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+    font: 16px/20px montserrat_medium, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__img, .advantages-second__img, .advantages-third__img {
+    width: 60px;
+    margin-bottom: 20px;
   }
 }
 
@@ -326,6 +358,23 @@ body {
     visibility: visible;
     left: 0;
   }
+
+ .advantages-all {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages__title, .advantages-first__title, .advantages-second__title, .advantages-third__title {
+    font: 24px/26px montserrat_black, arial, helvetica, sans-serif;
+}
+
+.advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+  margin-bottom: 70px;
+  }
+
+  .advantages__button {
+    font: 18px/22px montserrat_extrabold, arial, helvetica, sans-serif;
+  }
 }
 
 @media (max-width: 320px) {
@@ -359,5 +408,13 @@ body {
 
   .menu__btn {
     width: 23px;
+  }
+
+  .advantages__title,.advantages-first__title, .advantages-second__title, .advantages-third__title {
+    font: 16px/19px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+    font: 16px/19px montserrat_medium, arial, helvetica, sans-serif;
   }
 }
