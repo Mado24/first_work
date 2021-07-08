@@ -372,8 +372,9 @@ body {
   margin-bottom: 70px;
   }
 
-  .advantages__button {
+  .advantages__button a {
     font: 18px/22px montserrat_extrabold, arial, helvetica, sans-serif;
+    padding: 20px;
   }
 }
 
@@ -417,4 +418,39 @@ body {
   .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
     font: 16px/19px montserrat_medium, arial, helvetica, sans-serif;
   }
+
+  .advantages__title {
+    width: 260px;
+    padding-top: 48px;
+    margin-left: 29px;
+    margin-bottom: 35px;
+  }
+
+  .advantages-first__img {
+    width: 55px;
+    margin-bottom: 0px;
+  }
+
+  .advantages-second__img {
+    width: 55px;
+  }
+
+  .advantages-third__img {
+    width: 55px;
+  }
+
+  .advantages-first__title {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    width: 230px;
+  }
+
+  .advantages-first__subtitle {
+    margin-bottom: 37px;
+  }
+
+  .advantages__button {
+    padding-bottom: 62px;
+  }
+
 }
