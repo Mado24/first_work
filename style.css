@@ -178,6 +178,91 @@ body {
   cursor:pointer;
 }
 
+/* skills */
+
+.skills{
+  color: #585858;
+}
+.skills__title {
+  margin-bottom: 50px;
+  margin-top: 91px;
+  text-align: center;
+  font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
+}
+
+.skills-first {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-first__img {
+  width: 175px;
+}
+
+.skills-first__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  margin-top: 4px;
+}
+
+.skills-first__title {
+  font: 30px/36px montserrat_semibold, arial, helvetica, sans-serif;
+}
+
+.skills-first__subtitle {
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+}
+
+.skills-second {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-second__img {
+  width: 175px;
+}
+
+.skills-second__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-second__title {
+  font: 30px/36px montserrat_semibold, arial, helvetica, sans-serif;
+}
+
+.skills-second__subtitle {
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+}
+
+.skills-third {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-third__img {
+  width: 175px;
+}
+
+.skills-third__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  margin-top: 4px;
+}
+
+.skills-third__title {
+  font: 30px/36px montserrat_semibold, arial, helvetica, sans-serif;
+}
+
+.skills-third__subtitle {
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+}
+
+
 
 
 @media (max-width: 1441px) {
@@ -366,9 +451,9 @@ body {
 
   .advantages__title, .advantages-first__title, .advantages-second__title, .advantages-third__title {
     font: 24px/26px montserrat_black, arial, helvetica, sans-serif;
-}
+  }
 
-.advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
   margin-bottom: 70px;
   }
 
@@ -462,9 +547,13 @@ body {
     margin-bottom: 52px;
   }
 
+  .advantages__button {
+    margin-bottom: 52px;
+  }
+
+
   .advantages__button a {
     font: 16px/19px montserrat_extrabold, arial, helvetica, sans-serif;
-    margin-bottom: 62px;
     padding: 17px 21px;
   }
 
