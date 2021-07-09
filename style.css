@@ -251,7 +251,7 @@ body {
   margin-left: 130px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 91px;
+  margin-bottom: 90px;
 }
 
 .skills-third__text {
@@ -274,7 +274,7 @@ body {
 
 .form__title {
   padding-top: 60px;
-  margin-bottom: 36px;
+  margin-bottom: 37px;
   color: #585858;
   font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
   margin-right: 15px;
@@ -383,7 +383,8 @@ body {
   }
 
   .advantages-first__title,
-  .advantages-third__title {
+  .advantages-third__title,
+  .form__title {
     font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
   }
 
@@ -412,6 +413,15 @@ body {
   .skills-second__subtitle,
   .skills-third__subtitle {
     font: 18px/22px montserrat_medium, arial, helvetica, sans-serif;
+  }
+
+  .main {
+    height: 480px;
+  }
+
+  .form__title {
+    margin-right: 0px;
+    font: 24px/30px montserrat_semibold, arial, helvetica, sans-serif;
   }
 }
 
@@ -447,13 +457,15 @@ body {
     width: 60px;
     margin-bottom: 20px;
   }
-  .skills__title {
+  .skills__title,
+  .form__title {
     font: 20px/28px montserrat_black, arial, helvetica, sans-serif;
   }
 
   .skills-first__title,
   .skills-second__title,
-  .skills-third__title {
+  .skills-third__title,
+  .form__title {
     font: 20px/28px montserrat_semibold, arial, helvetica, sans-serif;
   }
 
@@ -601,13 +613,15 @@ body {
     padding: 20px;
   }
 
-  .skills__title {
+  .skills__title,
+  .form__title {
     font: 18px/24px montserrat_black, arial, helvetica, sans-serif;
   }
 
   .skills-first__title,
   .skills-second__title,
-  .skills-third__title {
+  .skills-third__title,
+  .form__subtitle {
     font: 18px/24px montserrat_semibold, arial, helvetica, sans-serif;
   }
 
@@ -633,6 +647,10 @@ body {
     flex-direction: column;
     margin-top: 0px;
     margin-right: 0px;
+  }
+
+  .footer-icons {
+    width: 300px;
   }
 }
 
