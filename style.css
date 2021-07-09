@@ -345,6 +345,10 @@ body {
   outline: none;
 }
 
+.footer__social_mob {
+  display: none;
+}
+
 .footer-icons img {
   width: 60px;
 }
@@ -417,6 +421,10 @@ body {
 
   .main {
     height: 480px;
+  }
+
+  .form__img {
+    margin-right: 0px;
   }
 
   .form__title {
@@ -649,7 +657,8 @@ body {
     margin-right: 0px;
   }
 
-  .footer-icons {
+  .footer-icons,
+  .form__subtitle {
     width: 300px;
   }
 }
@@ -676,7 +685,7 @@ body {
 
   .menu__item_btn {
     font: 8px/8px montserrat_extrabold, arial, helvetica, sans-serif;
-    padding: 5px 11px;
+    padding: 6px 11px;
   }
 
   .header {
@@ -762,7 +771,7 @@ body {
 
   .skills__title {
     font: 16px/19px montserrat_black, arial, helvetica, sans-serif;
-    margin: 35px 0;
+    margin: 36px 0;
   }
 
   .skills-mob {
@@ -772,12 +781,12 @@ body {
   }
 
   .skills-mob__img {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
 
   .skills-mob__title {
-    font: 16px/19px montserrat_semibold, arial, helvetica, sans-serif;
-    margin-bottom: 11px;
+    font: 16px/20px montserrat_semibold, arial, helvetica, sans-serif;
+    margin-bottom: 9px;
   }
 
   .skills-mob__subtitle {
@@ -808,5 +817,66 @@ body {
     border-radius: 50%;
     background: #ffda45;
     margin-right: 16px;
+  }
+
+  .form__title {
+    font: 16px/20px montserrat_black, arial, helvetica, sans-serif;
+    padding-top: 32px;
+    margin-bottom: 19px;
+  }
+
+  .form__img {
+    padding-left: 3px;
+    margin-bottom: 24px;
+  }
+
+  .form__subtitle {
+    font: 16px/20px montserrat_semibold, arial, helvetica, sans-serif;
+    width: 240px;
+    margin-bottom: 20px;
+  }
+
+  .form__inputs {
+    margin-bottom: 35px;
+  }
+
+  .form__input {
+    margin-bottom: 11px;
+    width: 230px;
+    height: 47px;
+    font: 10px/12px montserrat_semibold, arial, helvetica, sans-serif;
+    padding-left: 25px;
+  }
+
+  .form__button {
+    padding-bottom: 47px;
+  }
+
+  .form__button a {
+    font: 16px/19px montserrat_black, arial, helvetica, sans-serif;
+    padding: 15px 82px;
+  }
+
+  .footer {
+    font: 14px/16px roboto, arial, helvetica, sans-serif;
+  }
+
+  .footer__social {
+    display: none;
+  }
+  .footer__social_mob {
+    display: block;
+    margin: auto;
+    padding-top: 31px;
+    padding-bottom: 15px;
+  }
+
+  .footer-icons {
+    width: 260px;
+    margin-bottom: 44px;
+  }
+
+  .footer-icons img {
+    width: 35px;
   }
 }
