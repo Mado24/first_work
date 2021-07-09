@@ -37,8 +37,9 @@ body {
 }
 
 .menu__item_btn:hover,
-.advantages__button:hover {
+.advantages__button a:hover {
   cursor: pointer;
+  color: #fff;
   background: #4ab272;
 }
 
@@ -315,7 +316,7 @@ body {
   padding-bottom: 84px;
 }
 
-.form__button:hover {
+.form__button a:hover {
   cursor: pointer;
   background: #ff0606;
 }
