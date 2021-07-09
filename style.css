@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  width: 80%;
-  margin: auto;
-}
-
 .header {
   display: flex;
   justify-content: flex-end;
@@ -49,7 +44,7 @@ body {
 .menu__item_btn {
   font: 20px/24px montserrat_extrabold, arial, helvetica, sans-serif;
   background-color: #330099;
-  padding: 12px 30px;
+  padding: 15px 31px 11px 31px;
   border-radius: 50px;
   color: #fff;
   position: relative;
@@ -80,8 +75,190 @@ body {
   color: #fff;
   font: 30px/38px montserrat_bold, arial, helvetica, sans-serif;
   padding-right: 9%;
-  margin-top: 4px;
+  margin-top: 5px;
 }
+
+/* section advantages */
+
+.advantages {
+  background-color: #F9F9F9;
+}
+
+.advantages__title {
+  padding-top: 90px;
+  font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
+  color: #585858;
+  text-align: center;
+  background-color: #F9F9F9;
+  margin: 0 0 51px 0;
+}
+
+.advantages-all{
+  width: 82%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.advantages-first {
+  width: 317px;
+  margin-right: 25px;
+}
+
+.advantages-second {
+  width: 340px;
+}
+
+.advantages-third {
+  width: 346px;
+}
+
+.advantages-first__img, .advantages-second__img, .advantages-third__img {
+  width: 85px;
+  margin-bottom: 28px;
+}
+
+.advantages-first__title {
+  margin-bottom: 10px;
+  font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
+  color: #585858;
+}
+
+.advantages-third__subtitle_mob {
+  display: none;
+}
+
+.advantages-second__title {
+  margin-bottom: 27px;
+  font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
+  color: #585858;
+  padding-left: 35px;
+  width: 268px;
+}
+
+.advantages-third__title {
+  margin-bottom: 10px;
+  font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
+  color: #585858;
+}
+
+.advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+  color:#585858;
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+  margin-bottom: 117px;
+}
+
+.advantages-second__subtitle {
+  color:#585858;
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+  margin-bottom: 117px;
+}
+
+.advantages-third__subtitle {
+  color:#585858;
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+  margin-bottom: 117px;
+}
+
+.advantages__button {
+  display: block;
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.advantages__button a {
+  text-decoration: none;
+  background-color: #330099;
+  padding: 21px 37px 20px 36px;
+  border-radius: 50px;
+  color: #FFDA45;
+  font: 20px/24px montserrat_extrabold, arial, helvetica, sans-serif;
+  cursor:pointer;
+}
+
+/* skills */
+
+.skills-mob {
+  display: none;
+}
+
+.dots {
+  display: none;
+}
+
+.skills{
+  color: #585858;
+}
+.skills__title {
+  margin-bottom: 50px;
+  margin-top: 91px;
+  text-align: center;
+  font: 30px/36px montserrat_black, arial, helvetica, sans-serif;
+}
+
+.skills-first {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.skills-first__img, .skills-second__img, .skills-third__img {
+  width: 175px;
+}
+
+.skills-first__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  margin-top: 3px;
+}
+
+.skills-first__title, .skills-second__title  {
+  font: 30px/37px montserrat_semibold, arial, helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+
+.skills-first__subtitle, .skills-second__subtitle, .skills-third__subtitle {
+  font: 20px/24px montserrat_medium, arial, helvetica, sans-serif;
+}
+
+.skills-second {
+  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 130px;
+  margin-bottom: 80px;
+}
+
+.skills-second__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  margin-right: 25px;
+}
+
+.skills-third {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 101px;
+}
+
+.skills-third__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  margin-top: 12px;
+}
+
+.skills-third__title {
+  font: 30px/36px montserrat_semibold, arial, helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+
 
 @media (max-width: 1441px) {
   .main {
@@ -93,15 +270,83 @@ body {
   .main__title {
     width: 70%;
   }
+
+  .advantages__title {
+    padding-top: 60px;
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first,.advantages-second,.advantages-third {
+    width: 270px;
+    margin: 0;
+  }
+
+  .advantages-second__title {
+    padding-left: 0;
+    width: auto;
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__title, .advantages-third__title {
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+    font: 18px/22px montserrat_medium, arial, helvetica, sans-serif;
+  }
+
+  .skills-first__img, .skills-second__img, .skills-third__img {
+    width: 150px;
+  }
+  .skills__title{
+    margin-top: 60px;
+    font: 24px/30px montserrat_black, arial, helvetica, sans-serif;
+  }
+  .skills-first__title, .skills-second__title, .skills-third__title {
+    font: 24px/30px montserrat_semibold, arial, helvetica, sans-serif;
+  }
+
+  .skills-first__subtitle, .skills-second__subtitle, .skills-third__subtitle {
+    font: 18px/22px montserrat_medium, arial, helvetica, sans-serif;
+  }
 }
 
-@media (max-width: 801px) {
+@media (max-width: 880px) {
   .main__title {
     font: 32px/40px montserrat_black, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     font: 24px/30px montserrat_bold, arial, helvetica, sans-serif;
+  }
+
+  .advantages__title {
+    padding-top: 50px;
+    font: 20px/28px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__title, .advantages-second__title, .advantages-third__title {
+    font: 20px/28px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+    font: 16px/20px montserrat_medium, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__img, .advantages-second__img, .advantages-third__img {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  .skills__title {
+    font: 20px/28px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .skills-first__title, .skills-second__title, .skills-third__title {
+    font: 20px/28px montserrat_semibold, arial, helvetica, sans-serif;
+  }
+
+  .skills-first__subtitle, .skills-second__subtitle, .skills-third__subtitle {
+    font: 16px/20px montserrat_medium, arial, helvetica, sans-serif;
   }
 }
 
@@ -156,13 +401,14 @@ body {
     position: absolute;
     width: 100%;
     height: 3px;
+    top:8px;
     background-color: #330099;
     transition-duration: 0.25s;
   }
 
   .menu__btn > span::before {
     content: '';
-    top: -7px;
+    top: -8px;
   }
 
   .menu__btn > span::after {
@@ -218,12 +464,56 @@ body {
     visibility: visible;
     left: 0;
   }
+
+ .advantages-all {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages__title, .advantages-first__title, .advantages-second__title, .advantages-third__title {
+    font: 18px/22px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+  margin-bottom: 70px;
+  }
+
+  .advantages__button a {
+    font: 18px/22px montserrat_extrabold, arial, helvetica, sans-serif;
+    padding: 20px;
+  }
+
+  .skills__title {
+    font: 18px/24px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+   .skills-first__title, .skills-second__title, .skills-third__title {
+     font: 18px/24px montserrat_semibold, arial, helvetica, sans-serif;
+   }
+
+  .skills-first__img, .skills-second__img, .skills-third__img {
+    width: 75px;
+  }
+
+  .skills-first, .skills-second, .skills-third {
+    margin-left: 5%;
+    flex-direction: row;
+    text-align: left;
+    margin-right: 0px;
+  }
+
+  .skills-first__text, .skills-second__text, .skills-third__text {
+    margin-left: 10px;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 320px) {
   .main {
       background: no-repeat center/100% url(images/bg-mob.svg);
-      height: 231px;
+      height: 230px;
       justify-content: flex-end;
   }
 
@@ -235,7 +525,7 @@ body {
 
   .main__subtitle {
     font: 16px/19px montserrat_bold, arial, helvetica, sans-serif;
-    padding-right: 10%;
+    padding-right: 9%;
     margin: 0;
     padding-bottom: 37%;
   }
@@ -252,4 +542,124 @@ body {
   .menu__btn {
     width: 23px;
   }
+
+  .advantages__title,.advantages-first__title, .advantages-second__title, .advantages-third__title {
+    font: 16px/20px montserrat_black, arial, helvetica, sans-serif;
+  }
+
+  .advantages-first__subtitle, .advantages-second__subtitle, .advantages-third__subtitle {
+    font: 16px/20px montserrat_medium, arial, helvetica, sans-serif;
+  }
+
+  .advantages__title {
+    width: 260px;
+    padding-top: 48px;
+    margin-left: 29px;
+    margin-bottom: 35px;
+  }
+
+  .advantages-first__img, .advantages-second__img, .advantages-third__img {
+    width: 55px;
+    margin-bottom: 0px;
+  }
+
+  .advantages-first__title {
+    margin-bottom: 2px;
+  }
+
+  .advantages-second__title {
+    margin-bottom: 3px;
+  }
+
+  .advantages-third__title {
+      margin-bottom: 3px;
+    }
+
+  .advantages-first__subtitle {
+    margin-bottom: 34px;
+  }
+
+  .advantages-second__subtitle {
+    margin-bottom: 34px;
+  }
+
+  .advantages-third__subtitle {
+    display: none;
+  }
+
+  .advantages-third__subtitle_mob {
+    display: block;
+    font: 16px/20px montserrat_medium, arial, helvetica, sans-serif;
+    color: #585858;
+    margin-bottom: 52px;
+  }
+
+  .advantages__button {
+    padding-bottom: 63px;
+  }
+
+
+  .advantages__button a {
+    font: 16px/19px montserrat_extrabold, arial, helvetica, sans-serif;
+    padding: 17px 21px;
+  }
+
+  .skills-first, .skills-second, .skills-third {
+    display: none;
+  }
+
+  .skills__title {
+    font: 16px/19px montserrat_black, arial, helvetica, sans-serif;
+    margin: 35px 0;
+
+  }
+
+  .skills-mob {
+    display: block;
+    color: #585858;
+    text-align: center;
+  }
+
+  .skills-mob__img {
+    margin-bottom: 8px;
+  }
+
+  .skills-mob__title {
+    font: 16px/19px montserrat_semibold, arial, helvetica, sans-serif;
+    margin-bottom: 11px;
+  }
+
+  .skills-mob__subtitle {
+    font: 14px/17px montserrat_medium, arial, helvetica, sans-serif;
+    margin-bottom: 29px;
+  }
+
+  .dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  margin-left: 14px;
+}
+
+  .dots__two, .dots__three {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #e1e6e9;
+  margin-right: 13px;
+}
+
+.dots__one {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #FFDA45;
+  margin-right: 16px;
+}
+
+
+
+
+
 }
